@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import MetaTags from "react-meta-tags";
-import Header from '../layouts/Header';
+import Header from '../layouts/Headerfour';
 import Footer from '../layouts/Footer';
-import Content from '../sections/home/Content';
+import Content from '../sections/home-v4/Content';
 
 const pagelocation = 'Homepage';
 
@@ -11,7 +11,7 @@ class Home extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Master Store - Quality With Truth | {pagelocation}</title>
+                    <title>Master Store - Quality With Truth  | {pagelocation}</title>
                     <meta
                         name="description"
                         content="#"

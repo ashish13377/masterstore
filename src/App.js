@@ -13,7 +13,7 @@ const Checkout = React.lazy(() => import("./components/pages/Checkout"));
 const Cart = React.lazy(() => import("./components/pages/Cart"));
 const Legal = React.lazy(() => import("./components/pages/Legal"));
 const Error = React.lazy(() => import("./components/pages/Error"));
-const Menuone = React.lazy(() => import("./components/pages/Menuone"));
+const Store = React.lazy(() => import("./components/pages/Store"));
 const Menutwo = React.lazy(() => import("./components/pages/Menutwo"));
 const Menuitemone = React.lazy(() => import("./components/pages/Menuitemone"));
 const Menuitemtwo = React.lazy(() => import("./components/pages/Menuitemtwo"));
@@ -42,7 +42,7 @@ function App() {
           <Route path="/cart" component={Cart} />
           <Route path="/legal" component={Legal} />
           <Route path="/error" component={Error} />
-          <Route path="/menu-v1" component={Menuone} />
+          <Route path="/store" component={Store} />
           <Route path="/menu-v2" component={Menutwo} />
           <Route path="/menu-item-v1/:id" exact component={props => (<Menuitemone {...props} key={window.location.pathname} />)} />
           <Route path="/menu-item-v2/:id" exact component={props => (<Menuitemtwo {...props} key={window.location.pathname} />)} />

@@ -3,11 +3,11 @@ import MetaTags from "react-meta-tags";
 import Header from '../layouts/Headerinner';
 import Breadcrumbs from '../layouts/Breadcrumb';
 import Footer from '../layouts/Footer';
-import Content from '../sections/menu-v1/Content';
+import Content from '../sections/Store/Content';
 
-const pagelocation = 'Menu v1'
+const pagelocation = 'Store'
 
-class Menuone extends Component {
+class Store extends Component {
     render() {
         return (
             <Fragment>
@@ -27,4 +27,4 @@ class Menuone extends Component {
     }
 }
 
-export default Menuone;
+export default Store;

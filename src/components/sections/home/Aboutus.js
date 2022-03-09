@@ -8,13 +8,13 @@ class Aboutus extends Component {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-lg-30 ct-single-img-wrapper">
-                            <img src={process.env.PUBLIC_URL + "/assets/img/auth.jpg"} alt="img" />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/auth.png"} alt="img" />
                             <div className="ct-dots" />
                         </div>
                         <div className="col-lg-6">
                             <div className="section-title-wrap mr-lg-30">
-                                <h5 className="custom-primary">Sir Slice's Heritage</h5>
-                                <h2 className="title">Serving Pizzas By The Slice Since 1987</h2>
+                                <h5 className="custom-primary">Master Store</h5>
+                                <h2 className="title">Serving industrial goods By The Slice Since 1987</h2>
                                 <p className="subtitle">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </p>
